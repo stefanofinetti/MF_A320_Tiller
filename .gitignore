@@ -1,0 +1,21 @@
+# ─── FreeCAD ───────────────────────────────────────────────────────────────
+# Backups written on every save
+*.FCBak
+*.FCStd1
+
+
+# ─── Editors and OS ────────────────────────────────────────────────────────
+# Office lock files: appear while a workbook is open, vanish when it closes
+~$*
+
+.history/
+__pycache__/
+.DS_Store
+*.tmp
+*.swp
+*.log
+autosave*
+
+
+# ─── tools/freecad/animate_tiller.py output (frames and the GIF) ─────────────
+media/
